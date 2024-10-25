@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/salmon">
+
+    <LinearLayout
+        android:id="@+id/sectionAviao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginTop="20dp"
+            android:text=" Despesa com transporte  "
+            android:textColor="@color/brown"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Custo estimado por pessoa"
+            android:textColor="@color/brown" />
+
+        <EditText
+            android:id="@+id/custo_pessoa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/brown_border"
+            android:hint="Informe o custo estimado por pessoa"
+            android:inputType="numberDecimal"
+            android:padding="8dp"
+            android:textColor="@color/brown"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Aluguel de veículo"
+            android:textColor="@color/brown" />
+
+        <EditText
+            android:id="@+id/aluguel_veiculo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/brown_border"
+            android:hint="Informe o aluguel de veículo"
+            android:inputType="numberDecimal"
+            android:padding="8dp"
+            android:textColor="@color/brown"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/totalPassagemAerea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sectionAviao"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="8dp"
+            android:text="Total: XXX"
+            android:textColor="@color/brown"
+            android:textColorHint="@color/brown"
+            android:textSize="20sp"
+            android:backgroundTint="@color/blue"/>
+    </LinearLayout>
+</RelativeLayout>

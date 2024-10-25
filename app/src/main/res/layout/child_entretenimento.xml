@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/salmon">
+
+    <LinearLayout
+        android:id="@+id/optionsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginTop="20dp"
+            android:text=" Adicionais  "
+            android:textColor="@color/brown"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/option1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingresso para show da banda local - Custo: R$ 80,00"
+            android:textColor="@color/brown" />
+
+        <CheckBox
+            android:id="@+id/option2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sessão de cinema com IMAX - Custo: R$ 120,00"
+            android:textColor="@color/brown" />
+
+        <CheckBox
+            android:id="@+id/option3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aluguel de bicicletas para passeio - Custo: R$ 50,00"
+            android:textColor="@color/brown" />
+
+        <CheckBox
+            android:id="@+id/option4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jantar temático com música ao vivo - Custo: R$ 150,00"
+            android:textColor="@color/brown" />
+
+        <CheckBox
+            android:id="@+id/option5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingresso para peça de teatro - Custo: R$ 40,00"
+            android:textColor="@color/brown" />
+
+        <CheckBox
+            android:id="@+id/option6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Entrada para o parque aquático - Custo: R$ 80,00"
+            android:textColor="@color/brown" />
+
+        <CheckBox
+            android:id="@+id/option7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sessão de karaokê com os amigos - Custo: R$ 30,00"
+            android:textColor="@color/brown" />
+
+        <CheckBox
+            android:id="@+id/option8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Escape room (Sala de fuga) - Custo: R$ 70,00"
+            android:textColor="@color/brown" />
+
+        <CheckBox
+            android:id="@+id/option9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sessão de paintball - Custo: R$ 90,00"
+            android:textColor="@color/brown" />
+
+        <CheckBox
+            android:id="@+id/option10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tour guiado em um museu interativo - Custo: R$ 60,00"
+            android:textColor="@color/brown" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/totalEntertainment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/optionsLayout"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="8dp"
+        android:text="Total: XXX"
+        android:textColor="@color/brown"
+        android:textSize="20sp" />
+
+</RelativeLayout>

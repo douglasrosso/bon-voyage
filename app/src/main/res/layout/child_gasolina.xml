@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/salmon">
+
+    <LinearLayout
+        android:id="@+id/sectionGasolina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginTop="20dp"
+            android:text=" Despesa com combustível  "
+            android:textColor="@color/brown"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Total KM:"
+            android:textColor="@color/brown"
+            android:textColorHint="@color/brown" />
+
+        <EditText
+            android:id="@+id/totalKm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/brown_border"
+            android:hint="Informe o total KM"
+            android:inputType="number"
+            android:padding="8dp"
+            android:textColor="@color/brown"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Média Km/L:"
+            android:textColor="@color/brown"
+            android:textColorHint="@color/brown" />
+
+        <EditText
+            android:id="@+id/mediaKmL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/brown_border"
+            android:hint="Informe a média Km/L"
+            android:inputType="numberDecimal"
+            android:padding="8dp"
+            android:textColor="@color/brown"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Custo médio por litro:"
+            android:textColor="@color/brown"
+            android:textColorHint="@color/brown" />
+
+        <EditText
+            android:id="@+id/custoMedioLitro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/brown_border"
+            android:hint="Informe o custo médio por litro"
+            android:inputType="numberDecimal"
+            android:padding="8dp"
+            android:textColor="@color/brown"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Qtd Veículos:"
+            android:textColor="@color/brown"
+            android:textColorHint="@color/brown" />
+
+        <EditText
+            android:id="@+id/qtdVeiculos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/brown_border"
+            android:hint="Informe a quantidade de veículos"
+            android:inputType="number"
+            android:padding="8dp"
+            android:textColor="@color/brown"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/totalGasolina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sectionGasolina"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="8dp"
+            android:text="Total: XXX"
+            android:textColor="@color/brown"
+            android:textColorHint="@color/brown"
+            android:textSize="20sp" />
+    </LinearLayout>
+</RelativeLayout>

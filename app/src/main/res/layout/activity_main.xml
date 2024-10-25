@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/salmon"
+    tools:context=".MainActivity"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gerenciador de Viagens"
+        android:textSize="24sp"
+        android:textColor="@color/brown"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Criar Viagem"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="15dp"
+        android:padding="12dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/blue"
+        android:drawableLeft="@drawable/criar"/>
+
+    <ListView
+        android:id="@+id/travelList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:dividerHeight="8dp"
+        android:divider="@color/brown" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sair"
+        android:textColor="@android:color/white"
+        android:padding="12dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/red"
+        android:drawableLeft="@drawable/fechar"/>
+
+</LinearLayout>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/salmon">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginTop="20dp"
+            android:text=" Detalhes  "
+            android:textColor="@color/brown"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Nome da Viagem"
+            android:textColor="@color/brown" />
+
+        <EditText
+            android:id="@+id/etNomeViagem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/brown_border"
+            android:hint="Digite o nome da viagem"
+            android:padding="8dp"
+            android:textColor="@color/brown"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Descrição da Viagem"
+            android:textColor="@color/brown" />
+
+        <EditText
+            android:id="@+id/etDescricaoViagem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/brown_border"
+            android:hint="Digite a descrição da viagem"
+            android:padding="8dp"
+            android:textColor="@color/brown"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Quantas pessoas?"
+            android:textColor="@color/brown" />
+
+        <EditText
+            android:id="@+id/etQuantasPessoas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/brown_border"
+            android:hint="Digite o número de pessoas"
+            android:inputType="number"
+            android:padding="8dp"
+            android:textColor="@color/brown"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Qual a duração da viagem?"
+            android:textColor="@color/brown" />
+
+        <EditText
+            android:id="@+id/etDuracaoViagem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/brown_border"
+            android:hint="Digite o número de dias de viagem"
+            android:inputType="number"
+            android:padding="8dp"
+            android:textColor="@color/brown"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Local de Partida"
+            android:textColor="@color/brown" />
+
+        <EditText
+            android:id="@+id/etLocalPartida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/brown_border"
+            android:hint="Digite o local de partida"
+            android:padding="8dp"
+            android:textColor="@color/brown"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Local de Chegada"
+            android:textColor="@color/brown" />
+
+        <EditText
+            android:id="@+id/etLocalChegada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/brown_border"
+            android:hint="Digite o local de chegada"
+            android:padding="8dp"
+            android:textColor="@color/brown"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Como deseja se Locomover"
+            android:textColor="@color/brown" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/brown"
+            android:padding="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+
+                android:background="@color/white">
+
+        <Spinner
+            android:id="@+id/spLocomocao"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Selecione o meio de locomoção" />
+
+            </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
